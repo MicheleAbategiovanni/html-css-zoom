@@ -82,13 +82,14 @@ img {
     text-align: center;
 } */
 
-[class^="media-"] {
+[class^="option-"] {
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-.media-audio-container >*{
+.option-audio-container >*,
+.option-zoom-container >*{
     padding-right: 20px;
 }
 
