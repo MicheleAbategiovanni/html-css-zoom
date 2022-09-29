@@ -6,6 +6,7 @@
 
 a {
     text-align: none;
+    text-decoration: none;
     color: white;
 }
 
@@ -75,8 +76,22 @@ img {
     height: 8vh;
 }
 
-.media-container{
+/* .media-container{
     display: flex;
     align-items: center;
     text-align: center;
+} */
+
+[class^="media-"] {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.media-audio-container >*{
+    padding-right: 20px;
+}
+
+.icon-chevron a i{
+    font-size: 0.7rem;
 }
