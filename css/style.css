@@ -41,6 +41,7 @@ img {
     flex-wrap: wrap;
     background-color: black;
     justify-content: space-between;
+    min-width: 90vh;
 }
 
 .card-video {
