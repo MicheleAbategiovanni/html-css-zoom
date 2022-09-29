@@ -5,7 +5,8 @@
 }
 
 a {
-    text-decoration: none;
+    text-align: none;
+    color: white;
 }
 
 img {
@@ -29,6 +30,7 @@ img {
     /* flex-direction: row; */
     justify-content: flex-end;
     background-color: black;
+    height: 10vh;
 }
 
 .main-video-container {
@@ -36,11 +38,14 @@ img {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 0 50px;
+    padding: 10px 50px;
     flex-wrap: wrap;
     background-color: black;
     justify-content: space-between;
     min-width: 90vh;
+    max-height: 85vh;
+    overflow: auto;
+    height: 82vh;
 }
 
 .card-video {
@@ -57,4 +62,21 @@ img {
     left: 0;
     padding: 3px 10px;
     font-size: 0.7rem;
+}
+
+.nav-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: grey;
+    /* min-height: 10vh; */
+    /* max-height: 10vw; */
+    height: 8vh;
+}
+
+.media-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
