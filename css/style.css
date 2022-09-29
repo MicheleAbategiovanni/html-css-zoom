@@ -1,18 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-img{
+img {
     width: 100%;
 }
 
-[class^="view-"]{
+[class^="view-"] {
     background-color: grey;
     color: white;
     text-decoration: none;
@@ -24,14 +24,14 @@ img{
     font-size: 0.8rem;
 }
 
-.nav-container-view{
+.nav-container-view {
     display: flex;
     /* flex-direction: row; */
     justify-content: flex-end;
     background-color: black;
 }
 
-.main-video-container{
+.main-video-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -39,16 +39,17 @@ img{
     gap: 10px;
     padding: 0 50px;
     flex-wrap: wrap;
-    gap: 10px;
+    background-color: black;
+    justify-content: space-between;
 }
 
-.card-video{
-    flex-basis: 15%;
+.card-video {
+    flex-basis: 13%;
     position: relative;
     padding-top: 20px;
 }
 
-.info-profile{
+.info-profile {
     background-color: rgb(103, 115, 125, 0.8);
     color: white;
     position: absolute;
