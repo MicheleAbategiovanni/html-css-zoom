@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    min-width: 100vh;
+    max-height: 100vw;
+}
+
 a {
     text-align: none;
     text-decoration: none;
@@ -38,7 +43,6 @@ img {
 
 .nav-container-view {
     display: flex;
-    /* flex-direction: row; */
     justify-content: flex-end;
     background-color: black;
     height: 10vh;
@@ -48,7 +52,6 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
     padding: 10px 50px;
     flex-wrap: wrap;
     background-color: black;
@@ -81,8 +84,6 @@ img {
     justify-content: space-between;
     padding: 10px 10px;
     background-color: rgb(34, 34, 34);
-    /* min-height: 10vh; */
-    /* max-height: 10vw; */
     height: 8vh;
 }
 
